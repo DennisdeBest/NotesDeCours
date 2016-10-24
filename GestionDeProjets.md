@@ -92,10 +92,21 @@ Corriger  le chaos report de (note sur 5):
 * Dessombs Thomas
 * Estrach Quentin
 
+> **F**acilities **M**anagement (élec, clim, télécom ...)
+
 Un processus projet doit àvoir une charge et un délai.
 Ex Etchebest et le rougail saucisse, un beau matin fifou tombe sur une recette de rougaile saucisse.
 En **Plan** Il réunit les chefs, la DG et ils brainstorment sur la *stratégie* (pourquoi ?, quand ?, qui?, quoi ?)
 Une fois la stratégie établit et validé la phase **Design** consiste à rechercher des recettes, faire des essaies, du *prototypage* (comment ?, combien ?, quoi ?).
+La phase **Build** sert à industrialiser le prototype, qui fait quoi quand en combien de temps ? On rajoute le plat sur la carte etc ...
+**Run** : si quelqu'un commande un réalise le processus définit à la phase précédente, traiter les éventuels retours.
+
+Faire les phase design et build par groupe de deux, se mettre à la place de HP qui à était choisit par la direction générale des impôts pour faire la platforme infra-réseaux (firewealls, switch, load balancers ...) dans les locaux de la cité administrative pour le 1er mars 2017 (date d'ouverture de la campagne de déclaration des impôts sur le revenue).
+20 millions d'utilisateurs avec des pics d'accès de 100 000 utilisateurs en simultané. Faire un design et un POC.
+
+Faire donc deux dessins, un pour le prototypage et un pour l'implémentation.
+
+
 
 
 

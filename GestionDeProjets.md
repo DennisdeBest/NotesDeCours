@@ -71,9 +71,8 @@ Faire une synthèse critique, es ce que les projets sont représentatifs, es ce 
 
 2016-10-24_E4_Plan
 Finir le plan de la DSI, personne en interne pour faire des estimation, personne pour faire du dev, lancer un appel d'offre aupreès de plusieurs sociétés (Cap gemini, Cgi, ...), présenter ces offres.
-##Methodes de gestion de projet
-**Traditionel** ou **Agile**
 
+####Distribution des rôles
 Plan :
 * MOA : DG, DF, DMétier
 * MOE : DSI
@@ -81,4 +80,23 @@ Plan :
 Design :
 * MOA : DSI
 * MOE : SSII, Construteurs
+
+##Methodes de gestion de projet
+**Traditionel** ou **Agile**
+
+---
+Date : 24/10/2016
+A faire pour la prochaine fois:
+Corriger  le chaos report de (note sur 5):
+* Deschamps Lea
+* Dessombs Thomas
+* Estrach Quentin
+
+Un processus projet doit àvoir une charge et un délai.
+Ex Etchebest et le rougail saucisse, un beau matin fifou tombe sur une recette de rougaile saucisse.
+En **Plan** Il réunit les chefs, la DG et ils brainstorment sur la *stratégie* (pourquoi ?, quand ?, qui?, quoi ?)
+Une fois la stratégie établit et validé la phase **Design** consiste à rechercher des recettes, faire des essaies, du *prototypage* (comment ?, combien ?, quoi ?).
+
+
+
 

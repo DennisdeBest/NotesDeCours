@@ -2,6 +2,8 @@
 
 24/10/2016
 
+[TOC]
+
 ##Not only SQL
 * Ne pas se cantonner à une seule techno (BdD relationelles et non relationelles)
 * Problématique Big Data et Clustering
@@ -55,9 +57,9 @@ Inconvénients :
 
 > L'objectif de NoSQL est de proposer une solution de stockage de données la plus proche possible des besoins.
 
-##Les principaux types
+###Les principaux types
 
-###Orienté clé valeur
+####Orienté clé valeur
 * enregistrement = clé + valeur
 * Clé unique
 * Valeurs sérialisée
@@ -89,7 +91,7 @@ Examples de bases :
 * Oracle NoSQL
 * ...
 
-###Orienté colonne
+####Orienté colonne
 * Chaque colonne est traité individuellement (dans un fichier séparé)
 * Array processing (opération sur toutes les valeurs d'une colonne)
 * "Row output" si besoin
@@ -125,7 +127,7 @@ Examples  de bases :
 * MS SQL Server 2012
 * Oracle Database (option In-Memory)
 
-###Orienté documents
+####Orienté documents
 * Stockage par documents
 * Document = Structure flexible (JSON, BSON, ...)
 * Document à des métadonnées : collection, tag
@@ -164,7 +166,7 @@ Examples de bases :
 * ArangoDB
 * ...
 
-###BDD graphes
+####BDD graphes
 > GraphQL de facebook (langage pour requêter les bdd graphs)
 
 * L'ancêtre des BDD relationelles
@@ -200,18 +202,68 @@ Quelques bases :
 * Oracle spatial and graph
 * ...
 
-##Guide visuel
+###Guide visuel
 D'après le théorème de Brewer on ne peux que satisfaire 2 contraintes en même temps.
 
 ![Visual Guide](img/nosql/1.png)
 
+25/10/2016
 
+##Redis
 
+> Stocké en RAM, Extensible par script LUA, Nombreaux langages supporté.
 
+####Persistence sur disque
+* RDB : Snapshot ram selon intervalles
+* AOF : Logs de chaque écriture
 
+####Clustering
+* Redis sentinel : Replication Master/Slave
+* Redis Cluster : Sharding
 
+####Les clés
+* 512Mb max théorique
+* Clés < 1Kb (1000 chars) recommandé
+* Construire une nomenclature !
 
+####Les valeurs
+* valeurs sérialisé
+* listes
+* ...
 
+> Atomicité : ne pas modifier la valeurs à deux endroits différents pour ne pas se retrouver avec des données incohérents
+
+####Expire & TTL
+**EXPIRE (clé) (temps en secondes)**
+EXPIREAT -> timestamp unix
+PEXPIRE, PEXPIREAT -> en millisecondes
+TTL -> lire le TTL restant
+
+###Les types de valeurs
+
+####Listes ordonnées (array)
+**RPUSH (clé) (valeur1) (valeur2)** : Rajoute valeur à droite de la liste
+LPUSH
+**RPOP (clé)** : POP à droite
+LPOP
+**LRANGE (clé) 0 -1** : Récupère un array de la première à la dernière valeur
+**LINDEX (clé) (index)** : Récupère une valeur à un index
+
+> Notions de types sur les valeurs, on ne peut pas faire de RPUSH sur une clé qui à été initialisé avec un set
+
+####Les Sets
+**SADD (clé) (valeur1) (valeur2) (valeur3)** : Ajout d'un élément
+**SREM (clé) (valeur)** : Supression d'une valeur
+**SMEMBERS (clé)** : Récupération des valeurs
+**SISMEMBER (clé) (valeur)** : Retourne 1 si la valeur est dans le set
+
+####Les hashes
+**HSET (clé) (clé - valeur 1) (clé - valeur 2)** : Crée un hash qui contient plusieurs coupls clé - valeur
+**HINCRBY (clé) (clé - valeur)** : Incrémente une valeur d'une clé du hash
+**HGETALL (clé)** : Retourne tous les élements à la suite
+**HGET (clé) (clé)** : Retourne la valeur d'un des couples clé-valeur du hash
+**HEXISTS (clé) (clé)** : Retourne 1 si la clé existe
+**HDEL (clé) (clé)** : Retourne 1 si la clé existe
 
 
 

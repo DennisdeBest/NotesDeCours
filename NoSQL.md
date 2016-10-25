@@ -257,13 +257,29 @@ LPOP
 **SMEMBERS (clé)** : Récupération des valeurs
 **SISMEMBER (clé) (valeur)** : Retourne 1 si la valeur est dans le set
 
-####Les hashes
+####Les hashes (objet)
 **HSET (clé) (clé - valeur 1) (clé - valeur 2)** : Crée un hash qui contient plusieurs coupls clé - valeur
 **HINCRBY (clé) (clé - valeur)** : Incrémente une valeur d'une clé du hash
 **HGETALL (clé)** : Retourne tous les élements à la suite
 **HGET (clé) (clé)** : Retourne la valeur d'un des couples clé-valeur du hash
 **HEXISTS (clé) (clé)** : Retourne 1 si la clé existe
 **HDEL (clé) (clé)** : Retourne 1 si la clé existe
+
+####Collections
+Récupérer les valeurs
+**KEYS (regex)** : Retourne tous les utilisateurs, très lent car ça doit vérifier toutes les clés
+
+Stocker les id dans un set
+**SADD (clé) (valeurs)** ex SADD users "2145"
+Et récupérer les ids du set
+**SMEMBERS (cle)** ex SMEMBERS users retourne les ids dans le set
+On peut ensuite faire des **HGET (clé récupéré depuis le set ou KEYS) (clé)**
+
+###NodeJS : IORedis
+
+> npm install --save ioredis
+
+Pipeline : permet d'envoyer plusiers commandes à redis en une fois -> gains de perfs 50 - 300%
 
 
 

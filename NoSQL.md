@@ -281,6 +281,144 @@ On peut ensuite faire des **HGET (clé récupéré depuis le set ou KEYS) (clé)
 
 Pipeline : permet d'envoyer plusiers commandes à redis en une fois -> gains de perfs 50 - 300%
 
+Date : 26/10/2016
+
+##MongoDB
+
+Orienté documents, grands nombre de langages, OpenSource, Scalabilité, Hautes performances.
+
+Document embedded/nested -> Pas de JOIN -> I/O réduites
+Indexation puissante sur plusieurs niveaux
+
+Scalabilité:
+* Sharding et tagging
+* Haute dispo : replicas et auto-failover
+* Scalling automatique
+
+Documents rangés par collection.
+
+###Commandes
+
+**db.(nom de la collection).insert([{objet1}, {objet2}])** : Insert les objets JSON dans la collection et crée la collection si elle n'existe pas.
+**db.(nom de la collection).find()** : Récupère tous les documents de la collection, rajouter **.pretty()** pour un affichage plus agréable.
+####Filtres
+ * **.limit(nombre)**
+ * **.skip(nombre)**
+ * **.sort({critère: ordre})** : ex .sort({infos.age: -1})
+ * **.find({ (clé) : (valeur)})** : ex .find({type:'student'})
+ * **.find({ (critère): { (opératuer) : (valeur) }})** : ex : .find({ 'infos.age': { $gt : 25 }})
+ * **.find({ (clé) : { $in: [ (valeur1), (valeur2) ]}})** : ex : .find({ type: { $in: ['teacher', 'student']}})
+
+####Opérateurs de comparaison
+* **$eq** : equal
+* **$gt** : greather than
+* **$gte** : greater or equal
+* **$lt** : less than
+* **$lte** : less or equal
+* **$ne** :  not equal
+* **$in** : in
+* **$nin** : not in
+
+####Opérateurs de comparaison
+* **$and**
+* **$or**
+* **$not**
+* **$nor**
+
+Exs :
+db.users.find({
+type : 'teacher', 'infos.age' : 27
+}) (AND)
+
+db.users.find({
+$and: [
+{type: 'teachers'},
+{'infos.age': {$lt 25}}
+]
+})(OR)
+
+####Autres opérateurs
+* **$exists** : vérfie qu'une clé existe
+* **$type** : type de la valeur (double, string ..)
+* **$mod: [x, y]**
+* **$regex**
+* **$text** : Recherce dans un champs
+* **$where** : Javascript dans la recherche
+* **$near** : Proche d'une localisation
+
+####Mises à jours
+**db.(collection).update( {(condition)}, { $set: { (clé)-(valeur), (clé)-(valeur)}})**
+Pour mettre à jour plusieurs utilisateurs : **{ $multi: true }** ou **db.(collection).updateMany()**
+> **.explain()** pour débugger une requête
+
+* **$inc** : incrémente
+* **$mul** : multiplie
+* **$max** : Prends plus grande valeurs entre celle de la base et celle fournie
+* **$min**
+* **$rename** : Renomme la clé
+* **$set** : Change la valeur
+* **$unset** : supprime la clé
+* **$currentDate** : Date actuelle
+
+#####MAJ des tableaux
+**db.(collection).updateMany({ (clé tableau): {$exists : true }}, { $push: {(clé tableau): (valeur)}, $currentDate: { 'lastModified' : true }})**
+* **$push** : ajoute un élément à une liste
+* **$pop** : Supprime le dernier éléments (ou premier avec une option)
+* **$pull** : Supprime des éléments
+
+####Supression
+**db.(collection).remove({(clé): condition})**
+
+###Les relations
+Il faut ajouter un couple (clé - valeur) dans le document pour lequels on veut rajouter une relation vers un autre document sous la forme :
+**$set : { class_id: ObjectId(objectid)}**.
+Pour récupérer tous les documents qui ont une référence vers un certain document on utilise :
+**db.(collection).aggregate({ $lookup: { from:'(collection2)', localField:'_id', foreignField: '(collection)_id', as '(collection2)' }})**
+Ex : 
+```JavaScript
+db.classes.aggregate({$lookup:{from: 'users', localField: '_id', foreignField: 'class_id', as:'users'}}).pretty()
+```
+Aggregation pipeline pour de multiples JOINS
+1. Grouper les données **$group : { ... }**
+2. Charger les résultats **$lookup: { ... }**
+3. Retourner un objet à la place du tableau de résultats **$unwind: { ... }**
+4. Limiter aux champs intéréssants **$project{ ... }**
+
+Ex :
+```JavaScript
+db.users.aggregate([
+{
+	$group: {
+		_id:{_cid:'$class_id'},
+		count: { $sum: 1}
+	}
+},
+{
+	$lookup: {
+		from: 'classes',
+		localField:'_id._cid',
+		foreignField: '_id',
+		as: '_classes'
+	}
+},
+{
+	$unwind: {
+		path: "$_classes"
+	}
+},
+{
+	$project: {
+		_id: '$_id._cid',
+		name: '$_classes.name',
+		count:true
+	}
+}
+])
+```
+
+###Les indexes
+Optimisation !
+**db.collection.createIndex( (key and index type specification), (options) )**
 
 
 

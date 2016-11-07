@@ -125,86 +125,88 @@ Et pour finir :
 > utilisé principalement chez France Télécom et Orange
 
 Autres méthodes de gestion de projets informatiques (brainstorming):
+
+* ~~[KANBAN](https://stormpath.com/blog/so-long-scrum-hello-kanban)~~ phase run
+* ~~Adaptive Project Framework~~, le scope s'adapte mais le délais et budget reste fixes
+* **Dynamic Systems Development Model (DSDM)**, méthode agile qui s'appuie sur l'implication de l'utilisateur
+* **Extreme Programming (XP)**, comme son nom l'indique pas de perte de temps avec les specs ou l'archi mais concentré sur la programmation
+* ~~6 sigma~~
+* ~~dogfooding~~
+* ~~sprint~~ une itération de SCRUM
+* ~~planning poker~~ méthode d'estimation utilisé en SCRUM ou XP
+* ~~moscow~~ assitance maîtrise d'ouvrage phase PLAN
+* **unified process**
 * **SCRUM**
-* ~~[KANBAN](https://stormpath.com/blog/so-long-scrum-hello-kanban)~~ RUN
-* Adaptive Project Framework, le scope s'adapte mais le délais et budget reste fixes
-* Dynamic Systems Development Model (DSDM), méthode agile qui s'appuie sur l'implication de l'utilisateur
-* **Extreme Programming (XP)**, comme son nom l'indique pas de perte de temps avec les specs ou l'archi mais concentré sur la programmation
-* 6 sigma
-* dogfooding
-* ~~sprint~~ une itération de SCRUM
-* ~~planning poker~~ méthode d'estimation utilisé en SCRUM ou XP
-* moscow
-* unified process
-* scrum
-* ~~TDD Test driven development~~ implémenté dans les méthodes agiles
-* ~~Fluffer~~
-* ~~CoBIT~~ mesure la capacité d'une organisation à amélioré ces processus (qualité)
-* dual-programming
-* hermes
-* rolling release
-* ~~design sprint~~ planification de SCRUM
-* ~~burndown chart~~
-* Yagni
-* MDE
-* principe Kiss
-* **cycle en V**
-* cowboy coding
-* RACHE
-* ~~ITIL~~
-* worse is better
-* **prince 2**
-* **BMP/PMI**
-* book sprint
-* **RAD**
-* RUP* **SCRUM**
-* ~~[KANBAN](https://stormpath.com/blog/so-long-scrum-hello-kanban)~~ RUN
-* Adaptive Project Framework, le scope s'adapte mais le délais et budget reste fixes
-* Dynamic Systems Development Model (DSDM), méthode agile qui s'appuie sur l'implication de l'utilisateur
-* **Extreme Programming (XP)**, comme son nom l'indique pas de perte de temps avec les specs ou l'archi mais concentré sur la programmation
-* 6 sigma
-* dogfooding
-* ~~sprint~~ une itération de SCRUM
-* ~~planning poker~~ méthode d'estimation utilisé en SCRUM ou XP
-* moscow
-* unified process
-* scrum
 * ~~TDD Test driven development~~ implémenté dans les méthodes agiles
 * ~~Fluffer~~
 * ~~CoBIT~~ mesure la capacité d'une organisation à amélioré ces processus (qualité)
 * ~~dual-programming~~ outil utilisé en XP
-* hermes
-* rolling release
+* **hermes**
+* ~~rolling release~~
 * ~~design sprint~~ planification de SCRUM
 * ~~burndown chart~~
-* Yagni
-* MDE
-* principe Kiss
+* ~~Yagni~~
+* ~~MDE~~
+* ~~KISS~~, Keep it simple stupid
 * **cycle en V**
-* cowboy coding
-* RACHE
+* ~~cowboy coding~~, les devs ont une autonomie sur le projet
+* ~~RACHE~~
 * ~~ITIL~~
-* worse is better
+* ~~worse is better~~
 * **prince 2**
 * **BMP/PMI**
-* book sprint
+* ~~book sprint~~, outil de brainstorming utilisé dans les méthodes agiles
 * **RAD**
-* RUP
 * ~~Agile~~ ensemble de méthodes
 * ~~pyramide de mayol smith~~ Développement système en phase run
-* Crystal clear
+* **Crystal clear**
 * **ARRACHE, à l'arrache**
-* Code and fix
-* 2-TUP
-* Axial
-* RLP
+* ~~Code and fix~~
+* ~~2-TUP~~, MOA, phase plan
+* **Axial**
+* **RUP**
+* ~~RLP~~, choix du langage de plus bas niveau
 * ~~Agile~~ ensemble de méthodes
-* pyramide de mayo smith
-* Crystal clear
-* **ARRACHE, à l'arrache**
-* Code and fix
-* 2-TUP
-* Axial
-* RLP
 
+On retient 13 méthodes de gestion de projet :
+Prince 2, BMP/PMI, DSDM, XP, Unified process, SCRUM, Hermes, cycle en V, RAD, Crystal Clear, ARRACHE, Axial, RUP
+
+Exercie expliquer au maitre d'ouvrage pourquoi notre méthode de gestion de projet (hermes), est la meilleure pour la mise en place d'un outil informatique pour la gestion de la logistique, approvisionemment automatique ...
+Nous sommes une équipe de 6 personne et la livraison doit être pour fin décembre.
+
+##Hermes
+
+> Sources :
+> * https://en.wikipedia.org/wiki/HERMES_method
+> * http://www.hermes.admin.ch/
+
+###Introduction
+Méthode de gestion de projet pour l'IT, les services, produits et organisations.
+
+Développé par l'administration fédéral de la Suisse en 1975 la version actuelle HERMES 5 à vu le jour en 2012 c'est un standard ouvert disponible à tous le monde.
+
+###Objectifs et concept
+
+Réduits aux éléments essentiels, méthodes simple destinées aux chefs de projets.
+
+Implique tous le monde, le client, le chef de projet, les spécialiste de l'exécution projet.
+
+####Scénarios
+
+HERMES contient plusieurs scénarios standards qui peuvent être adaptés avec des **modules** pour convenir au projet
+
+Il se décompose en 4 phases :
+
+* L'initialisation
+* Le concept
+* La réalisation
+* L'introduction
+
+Plusieurs roles interviennent tout au long du projet :
+
+* le client
+* le chef de projet
+* le spécialiste technique
+
+Le projet est découpé en tâches, chaque tâche est assigné à un rôle et doit aboutir à un résultat.
 

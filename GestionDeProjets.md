@@ -106,8 +106,105 @@ Faire les phase design et build par groupe de deux, se mettre à la place de HP 
 
 Faire donc deux dessins, un pour le prototypage et un pour l'implémentation.
 
+Date 07/11/2016
 
+Exercice : Rechercher depuis quand un ingénieur/architecte à séparer la phase de réalistion d'une oeuvre (réalisé par le maitre d'oeuvre) en 2 partie conception et construction
 
+méthode **SDMS** c'est un cycle en cascade, chaque phase suit la précédente et on ne revient pas en arrière il est décomposé en plusieurs parties, la phase desiign se décompose en :
+* **D**efinition des **B**esoins du **S**ystème (MOA, client)
+* **C**hoix de l'**A**rchitecture du **S**ystèm (MOE, fournisseur)
+* **S**pécifications **E**xternes du **S**ystème (Specs fonctionels)
+* **S**pécifications **I**nternes du **S**ystème (Conception technique)
 
+La phase Build se décompose en :
+* **PR**o**G**ramation
+* **T**e**ST**
+Et pour finir :
+* **M**ise en **P**lace **P**ilote (mise en préprod)
+* **GENE**raliser la solution
+> utilisé principalement chez France Télécom et Orange
+
+Autres méthodes de gestion de projets informatiques (brainstorming):
+* **SCRUM**
+* ~~[KANBAN](https://stormpath.com/blog/so-long-scrum-hello-kanban)~~ RUN
+* Adaptive Project Framework, le scope s'adapte mais le délais et budget reste fixes
+* Dynamic Systems Development Model (DSDM), méthode agile qui s'appuie sur l'implication de l'utilisateur
+* **Extreme Programming (XP)**, comme son nom l'indique pas de perte de temps avec les specs ou l'archi mais concentré sur la programmation
+* 6 sigma
+* dogfooding
+* ~~sprint~~ une itération de SCRUM
+* ~~planning poker~~ méthode d'estimation utilisé en SCRUM ou XP
+* moscow
+* unified process
+* scrum
+* ~~TDD Test driven development~~ implémenté dans les méthodes agiles
+* ~~Fluffer~~
+* ~~CoBIT~~ mesure la capacité d'une organisation à amélioré ces processus (qualité)
+* dual-programming
+* hermes
+* rolling release
+* ~~design sprint~~ planification de SCRUM
+* ~~burndown chart~~
+* Yagni
+* MDE
+* principe Kiss
+* **cycle en V**
+* cowboy coding
+* RACHE
+* ~~ITIL~~
+* worse is better
+* **prince 2**
+* **BMP/PMI**
+* book sprint
+* **RAD**
+* RUP* **SCRUM**
+* ~~[KANBAN](https://stormpath.com/blog/so-long-scrum-hello-kanban)~~ RUN
+* Adaptive Project Framework, le scope s'adapte mais le délais et budget reste fixes
+* Dynamic Systems Development Model (DSDM), méthode agile qui s'appuie sur l'implication de l'utilisateur
+* **Extreme Programming (XP)**, comme son nom l'indique pas de perte de temps avec les specs ou l'archi mais concentré sur la programmation
+* 6 sigma
+* dogfooding
+* ~~sprint~~ une itération de SCRUM
+* ~~planning poker~~ méthode d'estimation utilisé en SCRUM ou XP
+* moscow
+* unified process
+* scrum
+* ~~TDD Test driven development~~ implémenté dans les méthodes agiles
+* ~~Fluffer~~
+* ~~CoBIT~~ mesure la capacité d'une organisation à amélioré ces processus (qualité)
+* ~~dual-programming~~ outil utilisé en XP
+* hermes
+* rolling release
+* ~~design sprint~~ planification de SCRUM
+* ~~burndown chart~~
+* Yagni
+* MDE
+* principe Kiss
+* **cycle en V**
+* cowboy coding
+* RACHE
+* ~~ITIL~~
+* worse is better
+* **prince 2**
+* **BMP/PMI**
+* book sprint
+* **RAD**
+* RUP
+* ~~Agile~~ ensemble de méthodes
+* ~~pyramide de mayol smith~~ Développement système en phase run
+* Crystal clear
+* **ARRACHE, à l'arrache**
+* Code and fix
+* 2-TUP
+* Axial
+* RLP
+* ~~Agile~~ ensemble de méthodes
+* pyramide de mayo smith
+* Crystal clear
+* **ARRACHE, à l'arrache**
+* Code and fix
+* 2-TUP
+* Axial
+* RLP
 
 

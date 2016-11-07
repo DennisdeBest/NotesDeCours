@@ -210,3 +210,10 @@ Plusieurs roles interviennent tout au long du projet :
 
 Le projet est découpé en tâches, chaque tâche est assigné à un rôle et doit aboutir à un résultat.
 
+RACHE
+Avantages : Pas limité
+Inconvénients : c'est n'importe quoi, cahier des charges résumé en mots
+
+MERISE
+Avantages : Français, old skool, bon sur un domaine
+Inconvénients : Limité à un seul domaine.

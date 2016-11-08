@@ -120,3 +120,96 @@ Exercice 2 Quels sont les subventions pour sous traiter le dev d'un produit R&D
 * Aide pour la faisabilité de l'innovation
 * ARITT 15 - 50K€ 50% des dépenses
 
+Date 08/11/2016
+
+##Le business plan
+###Pourquoi
+* Présenter un projet
+* Lever des capitaux
+* Evaluer une entreprise
+* Valider les orientations des filiales d'un groupe
+
+###Pour qui
+* Le banquier
+* Les investisseurs
+* Le top management
+
+###Construction
+Le bp suit un raissonement logique qui démontre étape par étape
+* L'activité envisagée peut générer des bénéfices importantes
+    * Il existe un besoin fort pas satisfait
+    * C'est suffisament atractif pour déclencher un achat
+    * une démographie importante visée
+    * un CA important
+* L'équipe comporte des profils complémentaires
+* L'entreprise aura une part de marché importante et durable
+    * Les concurrents sont identifiés
+    * L'entreprise à des avantages concurrentiels
+
+Pour rassurer un investisseur il faut que les embauches soient associée à l'obtention de résultats (CA) et pas au calendrier, présenter une version pessimiste, avoir en réserve une version catastrophique.
+
+####Présentation de l'équipe
+Phootos, CV, points forts, faiblesses, son historique, sees expériences et réalisations passées, sa complémantarité.
+Equilibrre Commecial, technique, Management.
+
+####Présentation des services
+* A quels besoins répondent-ils ?
+* Quelle est l'offre existante ?
+* Quel est le caractère innovant des produits/services
+* Quels sont les avantages et incovénients par rapport à l'offre existante ?
+* Quel est le facteur différentiateur
+* Décrire le contexte, préciser l'opportunité, pourquoi ces produits n'ont-ils pas déja été proposés ?
+* Le marché est-il prêt ?
+
+####Le marché
+* Qui sont les clients?
+* En quoi la solution est elle nouvelle ?
+* Démontrer l'existence d'un marché
+* Résultats d'enquêtes après des clients ou prospects
+* Crritères de segmentation des clients : indentifier les catégories.
+* Zone géographique ciblé - vision du marché
+* Le choix du moment : "time to market"
+
+####Modèle économique
+* créer de la valeur par son activité
+* générer un chiffre d'affaires important
+* gagner de l'argent
+
+Développer :
+* Les sources de revenus de l'entreprise
+* Les canaux de distribution (vente directe ou indirecte)
+* La politique de prix
+* La stratégie commercial
+
+####La concurrence
+Un concurrent directe est une copie quasi conforme
+Un concurrent directe à une petite partie de la techno
+
+Barrière à l'entrée exprimées en temps nécéssaire, en budget, en terme d'image. (nécéssaire pour la concurrence pour nous ratrapper)
+
+Analyse de force et faiblesse.
+
+> SWOT
+
+####La société
+Structure : Forme juridique, date de cration, début d'activité
+Capital
+profils des actionaires
+
+####Le plan d'action
+Stratégie de l'entreprise, les facteurs clés de la réussite, objectifs chiffrés
+* Plan R&D
+* Production : site, coûts ...
+* Marketing et communication : objectifs, plan de comm, cibles, messages, supports, budget
+* Plan d'action commerciale : Objectifs commerciaux, organisation et animation des équipes de vente, processus de vente.
+* Gestion des ressources humaines
+* Plan de développement international
+
+Définir le cout de recrutement d'un nouveau client
+
+####Prévisions financièere
+Démontre la rentabilité financière de l'entreprise
+Fournit des prévisions trimestrielles sur 3 à 5 ans.
+Plan financier à 3 ans
+
+

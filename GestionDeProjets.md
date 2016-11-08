@@ -217,3 +217,6 @@ Inconvénients : c'est n'importe quoi, cahier des charges résumé en mots
 MERISE
 Avantages : Français, old skool, bon sur un domaine
 Inconvénients : Limité à un seul domaine.
+
+ISO 215000:2012 -> norme gestion de projet dérivé du PM-BOK
+

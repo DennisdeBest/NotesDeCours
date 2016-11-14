@@ -1,5 +1,5 @@
 #Gestion de projet
-
+[TOC]
 Date: 10/10/2016
 
 ##Les grandes parties
@@ -200,7 +200,7 @@ Il se décompose en 4 phases :
 * L'initialisation
 * Le concept
 * La réalisation
-* L'introduction
+* Le déploiement
 
 Plusieurs roles interviennent tout au long du projet :
 
@@ -218,5 +218,59 @@ MERISE
 Avantages : Français, old skool, bon sur un domaine
 Inconvénients : Limité à un seul domaine.
 
-ISO 215000:2012 -> norme gestion de projet dérivé du PM-BOK
+> ISO 215000:2012 -> norme gestion de projet dérivé du PM-BOK
+> ISO 9001 Norme du qualité de gestion de projet (satisfaction client et amélioration continu)
 
+Date 14/11/2016
+
+##Méthodes d'estimation de charges
+* Abaque
+* Planning Poker
+* Cocomo
+* Points de fonction
+* Proportionnelle
+* Delphi
+* Expérience
+
+> équipe agile 1cp pour 5-9 devs
+
+Environ 10% de la charge dédié à la gestion du projet(conception, dev, test => 90)%
+
+###Estimation du temps de développement (Abaque)
+Points de fonction -> chiffres issues de statistiques de développment. ex : pour faire du dév il faut 40% du temps pour la conception, 20% pour le dev et 40% de test.
+Prendre en compte une provision pour risque. entre 5 et 10% du temps du projet.
+
+En mode run il faut assurer la garantie du projet, donc prévoir de la marge dans l'estimation du projet pour le temps passé, pas de temps de garantie obligatoire pour un soft mais prévu dans le contrat (3, 6 ou 12 mois en moyenne). 3 à 8 % du temps de projet.
+
+Si le MOA exgige un CP certifié ISO 9001 la gestion de la qualité prend 5% du temps de projet.
+
+Le temps d'un projet s'estime à partir de la charge de développement nécéssaire au projet.
+
+###Points de fonctions
+Découpage d'une application en processus et sous procéssus auquels ont donne un poids ce qui donne ensuite le coût en points de fonction de l'application.
+On doit avoir le moins de PF possible pour un ensmble cohérant pour l'utilisateur.
++ degré d'ajustement entre 0.65% à 1.35%
+PFB -> somme de tous les PF
+PFA -> PFB * degré ajustement
+
+####Calcul du nombre de points de fonction brut
+![Poids de fonction brut](img/gdp/pointsdefonctionbrut.png)
+La méthode distingue 5 types de composants fonctionnels :
+* GDI Groupes de données internes
+* GDE Groupes de données externes
+* ENT Entrées de traitement
+* SORT Sorties de traitement
+* INT Interrogations
+
+A chaque type de composant est attribué un certain nombre de points, en fonction du niveau de complexité (tableau du haut).
+Le total est appelé PFB pour points de fonction brut
+
+####Calcul du facteur d'ajustement.
+![Ajustement](img/gdp/ajustement.png)
+14 paramètres sont pris en compte pour le calcul du facteur d'ajustement. Chaque facteur est affecté d'un degré d'influence Di dont la valeur varie de 1 à 5
+FA = 0,65 + (0,01 x SOMME (Dii, i = 1 à 14)
+
+####Du nombre de points à la charge
+
+![charge](img/gdp/charge.png)
+La dernière difficulté de la méthode consiste à traduire le nombre de points en charge de travail. Il semble ne pas y avoir de consensus sur la valeur du ratio charge de travail / taille en PFA. Ce ratio dépend de l'efficacité de l'équipe mais surtout de la taille de l'application. Le tableau ci-contre donne des valeurs couramment admises.

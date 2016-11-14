@@ -271,6 +271,7 @@ Le total est appelé PFB pour points de fonction brut
 FA = 0,65 + (0,01 x SOMME (Dii, i = 1 à 14)
 
 ####Du nombre de points à la charge
-
 ![charge](img/gdp/charge.png)
 La dernière difficulté de la méthode consiste à traduire le nombre de points en charge de travail. Il semble ne pas y avoir de consensus sur la valeur du ratio charge de travail / taille en PFA. Ce ratio dépend de l'efficacité de l'équipe mais surtout de la taille de l'application. Le tableau ci-contre donne des valeurs couramment admises.
+
+Donc on ne peux pas traduire direcetment les PF en Jours/Homme car c'est dépendant du language de programmation et de l'expérience de l'équipe, afin d'avoir les jours/homme nécéssaires par PF on fait appel à l'éxpérience des développeurs.

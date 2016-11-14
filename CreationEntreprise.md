@@ -212,4 +212,29 @@ Démontre la rentabilité financière de l'entreprise
 Fournit des prévisions trimestrielles sur 3 à 5 ans.
 Plan financier à 3 ans
 
+Date : 14/11/2016
+
+####Calculs des salaires net-brut et charges
+Charges sur salaire brut : 23%
+salaire brut * 0.23 = charges salaire net
+Salaire brut * 0.77 = salaire net
+
+Charges patronales : 42% environ
+Salaire brut * 0.42 = total des charges employeur
+
+####Le résumé du BP
+L'**executive Summary** est un résumé à faire à la fin du BP et sert de teaser, il ne doit rien comporté de secret.
+Il doit contenir l'histoire, les activités, le management et les réalisation. Les caractéristiques du produit ou service (plus value). L'attrait du marché, les projections financières.
+Aucun terme techniques !
+
+####Comment cartographier le capital immatériel
+La capacité du dirigeant à dirigé, les personnes clés, ....
+
+####Facteurs d'échecs
+* Trop optimiste dans le bp
+* BP mal défini (ex contexte économique de crise)
+* Surestimations trop nombreuses
+* Sous estimation de la concurrence
+
+
 

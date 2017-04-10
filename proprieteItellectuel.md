@@ -27,3 +27,29 @@ pour breveté il faut que ça soit nouveau et possible de le fabriquer industrie
 * Obtentions végétales : Protection de la création de nouvelles espèces végétales (création pas découverte).
 
 Dépot à l'**INPI** obligatoire.
+
+### Exercice, comment protéger les créations.
+
+* Un scoop journalistique : pas protégeable
+* un article de presse : droit d'auteur
+* le nom d'un magazine : dépôt de marque
+* le site internet : droits d'auteur, marque NDD
+* une nouvelle émission télé : Droits d'auteur
+* une affiche publicitaire : Droits d'auteurs
+* un logo : dépôt de marque, droits d'auteur
+* un nouveau concept radio : c'est une idée pas matérialisé donc pas protegable
+* une nouvelle montre connecté : Brevets, dessins, marque
+* une nouvelle web-serie : PLA
+* un reportage vidéo d'information générale : PLA
+* nouvelle ligne de vetements : dessins et modèles
+* une nouvelle coiffure : PLA
+* un nouveau parfum : Dessins et modèles, marques
+* une nouvelle technique de création d'images de synthèse : Brevet
+* un cours de droit de la propriété intellectuel : PLA
+* un nouveau logiciel : PLA
+* un nouveau bijou : PLA
+* un château de sable : ?
+* une recette de cuisine : PLA
+* une interface d'un logiciel : PLA
+* une nouvelle couleur: brevet
+* un graffiti : PLA

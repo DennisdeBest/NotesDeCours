@@ -148,7 +148,7 @@ Autres méthodes de gestion de projets informatiques (brainstorming):
 * ~~Yagni~~
 * ~~MDE~~
 * ~~KISS~~, Keep it simple stupid
-* **cycle en V**
+* ~~cycle en V~~
 * ~~cowboy coding~~, les devs ont une autonomie sur le projet
 * ~~RACHE~~
 * ~~ITIL~~
@@ -275,3 +275,7 @@ FA = 0,65 + (0,01 x SOMME (Dii, i = 1 à 14)
 La dernière difficulté de la méthode consiste à traduire le nombre de points en charge de travail. Il semble ne pas y avoir de consensus sur la valeur du ratio charge de travail / taille en PFA. Ce ratio dépend de l'efficacité de l'équipe mais surtout de la taille de l'application. Le tableau ci-contre donne des valeurs couramment admises.
 
 Donc on ne peux pas traduire direcetment les PF en Jours/Homme car c'est dépendant du language de programmation et de l'expérience de l'équipe, afin d'avoir les jours/homme nécéssaires par PF on fait appel à l'éxpérience des développeurs.
+
+Date : 21/11/2016
+
+Pour demain corriger Projet_Management des autres.

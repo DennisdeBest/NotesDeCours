@@ -62,7 +62,10 @@ Dépot à l'**INPI** obligatoire.
 Nous sommes prestataire pour créer une base de données pour une ludothèque qui contient tous les jeux (vidéos et physiques).
 La base doit être accessible en interne et depuis l'extérieur (fonction de recherche).
 
-Structure de la base de données : Merise
+Structure de la base de données : Merise.
+
 Implémentation : MySQL (OpenSource) ou Oracle (Propriétaire).
+
 Plan Infra : Serveurs frontaux (2), serveurs back (2), serveur de backup (dump du contenu de la base).
+
 Implémentation : Load balancer entre les frontaux, master-slave pour les backs et un script cron pour les dumps de la base.

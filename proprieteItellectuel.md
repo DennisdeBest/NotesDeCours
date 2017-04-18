@@ -69,3 +69,19 @@ Implémentation : MySQL (OpenSource) ou Oracle (Propriétaire).
 Plan Infra : Serveurs frontaux (2), serveurs back (2), serveur de backup (dump du contenu de la base).
 
 Implémentation : Load balancer entre les frontaux, master-slave pour les backs et un script cron pour les dumps de la base.
+
+## NDD et Marque
+18/04/17
+NDD = nom commercial et enseigne (point de vente)
+L'enseigne se protège par l'usage (le premier qui s'en sert l'a, protégé géographiquement et par activité)
+Nom commercial != nom de l'entreprise
+
+NDD premier arrivé, premier servi, déposé auprès du registrar puis demande envoyé a :
+* AFNIC (.fr, .re, ...)
+* ICANN (américain .org, .com, ...)
+* EURID (.eu)
+
+Cybersquatting et typosquatting interdit
+
+Marque notoire : connu par une grande majorité de consomateurs. on ne peut jamais reprendre une marque notoire.
+Si la marque n'est pas exploité depuis 5 ans elle n'est plus protégé.

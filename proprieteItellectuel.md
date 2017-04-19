@@ -85,3 +85,50 @@ Cybersquatting et typosquatting interdit
 
 Marque notoire : connu par une grande majorité de consomateurs. on ne peut jamais reprendre une marque notoire.
 Si la marque n'est pas exploité depuis 5 ans elle n'est plus protégé.
+
+## Données personelles
+19/04/17
+
+-> reglementé par la CNIL -> Loi informatique et liberté (pour les données informatiques)
+un traitement de données personelles : tous actes de collecte et de stockage.
+Toutes les données permetant d'indentifier une personne physique :
+* données nominatives
+    * nom, prenom date de naissance, age
+    * addresse mail
+    * numéro de sécu
+    * numéro de téléphone
+    * addresse IP
+    * Images
+* Toutes information liée à la vie privée (données sensitives)
+    * Ce qui se passe dans le domicile (et l'intérieur de la voiture)
+    * vie sentimentale et sexuel
+    * opinions politiques et religeuses
+    * origine ethnique
+    * passé judicière (sauf pour rentrer dans la fonction publique)
+    * Informations liées à la santé
+    * Données bancaires
+
+Droit à la vie privée : droit de garder des choses secrets.
+!= Données publique :
+* Informations liée à la vie profesionel
+* Activité pratiqué en publique
+* Données révélés par la personne (infos facebook par ex)
+
+Pour toute collecte de données nominative il faut l'accord de la personne, pour les données sensitives il faut en plus être habillité par décret ministriel. Les données sensibles ne sont jamais obligatoires.
+Obligation d'informer les personne de la finalité de la collecte, de l'utilisation de la donnée et de la durée de conservation des données (pas plus de dix ans). Il faut informer les gens de leurs droits :
+* Droits d'accès à tout moment
+* Droits de modification à tout moment
+* Droits de suppresion à tout moment
+
+Il est complètement interdit de faire un classement des personnes en fonctions d'éléments de la vie privée.
+Il est également interdit de mettre des commentaires qui ne sont pas pertinents pour le travail de l'organisation qui collecte les données (ex: Cdiscount).
+
+Les données bancaires doivent être sécurisé et chiffré (ne peut pas être automatique, doit être validé par l'utilisateur).
+
+L'identité numérique est égalment protégé par la CNIL -> toutes informations stocker sur internet.
+Il est interdit d'usurper l'identité digitale de quelqu'un d'autre -> 1an de prison
+la e-réputation est protéger au même titre que la réputation -> droit à l'oublie.
+
+La vente et la transimission de fichiers clients ne peut être fait que avec l'accord des personnes
+
+Toutes collecte et traitement de données sans déclaration à la CNIL -> 1an de prison 45 000€ d'amende (X5 pour une entreprise)
